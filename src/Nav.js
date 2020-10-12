@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import NetflixLogo from "./Netflix_logo.png";
+import NetflixAvatar from "./Netflix_Avatar.png";
 import "./Nav.css";
 
 function Nav() {
@@ -20,12 +22,12 @@ function Nav() {
   return (
     <div className={`nav ${show && "nav_dark"}`}>
       <img
-        src="https://lh3.googleusercontent.com/proxy/ZoUsPwXApM59GHzXcWehhB4aKyrBVxLgJNwHalVciTGs-vQq-HmcowQzEaOZaZvmnW10Sd3t0B_nDST0R7AkOtyTputidJJ776Hp9Hkbp1GGgDsOrSM"
+        src={NetflixLogo}
         alt="Netflix Logo"
         className="nav_logo"
       />
       <img
-        src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
+        src={NetflixAvatar}
         alt="Netflix Avatar"
         className="nav_avatar"
       />
